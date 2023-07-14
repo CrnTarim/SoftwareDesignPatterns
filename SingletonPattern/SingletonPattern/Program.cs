@@ -23,7 +23,7 @@ namespace SingletonPattern
 
             Console.Write("Enter your Name: ");
             string customerName2 = Console.ReadLine();
-
+            
             FuelCompany.Instance.RunFuelPurchase(customerName2);
 
 
