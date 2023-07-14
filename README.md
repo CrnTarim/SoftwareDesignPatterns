@@ -21,11 +21,6 @@ The Singleton design pattern is a creational pattern that restricts the instanti
 - **Potential memory leakage**: The persistence of the Singleton object throughout its lifecycle may increase the risk of memory leaks.
 - **Dependency storage**: Storing dependencies within a Singleton instance can be more complex due to the limited access points.
 
+### Purpose of Code
+- The purpose of the code shows the purchase made at 3 fuel companies using the singleton pattern. Two separate users make purchases with the help of a common method (the balance in the bank account). The repetitiveness of shopping is shown with the help of loop and switch. Access to the methods was provided using the Main instance. the word "instance" is a term used to represent an instance of a class. When a class instance is created, you can access the non-static (instance) methods and properties of the class through this instance. This allows the class to contain individual data and behaviors for each instance
 
-
-```csharp
-// Create a new instance of the Singleton
-Singleton singleton = Singleton.Instance;
-
-// Use the Singleton instance
-singleton.DoSomething();
