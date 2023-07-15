@@ -2,7 +2,7 @@
 The adapter design pattern is used to allow two classes with different interfaces to work together. The adapter converts the interface of a class into a targeted interface. Below you can find the items used in the Adapter design pattern:
 ### Target (Target): ###  
 - Defines the target interface that the adapter is trying to make compatible.
-### Adaptee (Class to be Adapted):###
+### Adaptee (Class to be Adapted): ###
 - This is the existing class that needs to be made compatible by the adapter. The interface of this class is not compatible with the target interface.
 ### Adapter (Adapter): ###  
 - Implements the target interface and contains the object of the class that wants to be adapted. Converts the methods of the desired class to the target interface to be adapted.
