@@ -1,26 +1,12 @@
-# Singleton Design Pattern Example
-
-This repository provides an example implementation of the Singleton design pattern in C#. The Singleton pattern ensures that only one instance of a class is created and provides a global access point to that instance.
-
-
-## Overview
-
-The Singleton design pattern is a creational pattern that restricts the instantiation of a class to a single object. It is useful in scenarios where having multiple instances of a class can lead to problems such as resource contention or inconsistent state.
-
-### Advantages
-
-- **Resource optimization**: The Singleton pattern optimizes resource usage by ensuring that only one instance of the class is created.
-- **Lazy initialization**: The instance is created when it is first accessed, delaying its creation until it is actually needed.
-- **Global accessibility**: The single instance is globally accessible, providing a convenient way to access it throughout the application.
-- **Controlled access**: The Singleton pattern allows for controlled access to the instance, making it easier to manage dependencies and configurations.
-
-### Disadvantages
-
-- **Testing difficulties**: The global state introduced by the Singleton pattern can make unit testing more challenging.
-- **Reduced parallelism**: The use of synchronization mechanisms in Singleton implementations may limit parallel processing.
-- **Potential memory leakage**: The persistence of the Singleton object throughout its lifecycle may increase the risk of memory leaks.
-- **Dependency storage**: Storing dependencies within a Singleton instance can be more complex due to the limited access points.
-
-### Purpose of Code
-- The purpose of the code shows the purchase made at 3 fuel companies using the singleton pattern. Two separate users make purchases with the help of a common method (the balance in the bank account). The repetitiveness of shopping is shown with the help of loop and switch. Access to the methods was provided using the Main instance. the word "instance" is a term used to represent an instance of a class. When a class instance is created, you can access the non-static (instance) methods and properties of the class through this instance. This allows the class to contain individual data and behaviors for each instance
-
+# What Is Design Pattern #
+Design patterns are conventional responses to typical issues that arise in software design. To fix a reoccurring design issue in your code, you can modify them like pre-made blueprints.
+## Why do I need to Learn Patterns? ##
+In actuality, you could be able to function as a programmer for many years without being aware of any patterns. Many people act in that manner. However, even in that scenario, you can unknowingly be using some patterns. Why then would you bother knowing them?
+- A toolset of tried-and-true solutions to typical issues in software design is known as design patterns. Knowing patterns is helpful even if you never run into these issues since it teaches you how to approach any issue using object-oriented design principles.
+With the help of design patterns, you and your team members can communicate more effectively. You can simply propose. 
+## Pattern Classification ##
+Architectural patterns are the most widespread and high-level patterns. Developers can use almost any language to implement these patterns. They can be used to create the architecture of a whole application, unlike other patterns.
+All patterns can also be grouped according to their intent or goal. Three basic categories of pattern are covered in this book:
+-  Creational patterns , offer methods for creating objects that improve flexibility and allow current code to be reused.
+- Structural patterns ,describe how to put together smaller structures out of objects and classes while making these structures adaptable and effective.
+- Behavioral patterns ,manage efficient interaction and the delegation of duties amongst objects.
